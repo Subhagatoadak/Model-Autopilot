@@ -1,0 +1,31 @@
+# Core
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydantic>=2.0
+pydantic-settings>=2.0
+python-multipart
+aiosqlite
+websockets
+
+# LLM
+openai>=1.40
+
+# ML / Model Zoo
+scikit-learn>=1.5
+xgboost>=2.0
+lightgbm>=4.0
+torch>=2.2
+tensorflow>=2.16
+
+# Data
+pandas>=2.2
+numpy>=1.26
+psycopg2-binary
+
+# Utilities
+python-dotenv
+
+# Dev/Test
+pytest
+pytest-asyncio
+httpx
